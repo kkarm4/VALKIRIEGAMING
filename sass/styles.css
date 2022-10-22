@@ -1,0 +1,210 @@
+.inicio img {
+  animation: animado 5s;
+}
+
+.inicio a {
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  /*background-color: #c3992c;*/
+  background-image: url("https://img1.picmix.com/output/stamp/normal/5/7/6/0/540675_dc744.gif");
+  text-align: center;
+  border: solid 0.1em #000000;
+  animation: animado 2s;
+}
+
+@keyframes animado {
+  from {
+    margin-bottom: 90%;
+    width: 60%;
+  }
+  to {
+    margin-bottom: 90%;
+    width: 27%;
+  }
+}
+h1 {
+  color: #969696;
+  font-family: "Prosto One", cursive;
+  font-weight: bold;
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  line-height: 0.4;
+}
+
+main {
+  text-align: center;
+}
+
+.fondo {
+  background-image: url("../assets/img/diseno-de-amarillo-negro-y-gris_7680x4320_xtrafondos.com.jpg");
+  background-repeat: no-repeat;
+}
+
+header nav a img {
+  width: 10em;
+}
+
+header nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header nav {
+  background-color: #F2c60c;
+  top: 0;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.expli article h1 {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.expli img {
+  width: 10%;
+  margin: 2%;
+  float: left;
+}
+
+.expli p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+}
+
+.fon2 {
+  background-color: #f0ecec;
+}
+
+.seccion {
+  background-color: #F2c60c;
+}
+
+.title {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.seccion form {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hardware {
+  display: grid;
+  grid-template-columns: 300px 100px;
+  justify-content: center;
+}
+
+.hardware img {
+  width: 350px;
+  margin: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  header nav ul li a {
+    flex-direction: column;
+    color: #000000;
+    font-size: 10px;
+  }
+  header nav a img {
+    width: 5em;
+  }
+  .expli img {
+    width: 40%;
+    margin: 2%;
+    float: left;
+  }
+  .expli p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+  }
+  .expli div {
+    display: grid;
+    grid-template-columns: 300px 100px;
+  }
+  /*index*/
+  .fondo {
+    background-image: url("../assets/img/diseno-de-amarillo-negro-y-gris_7680x4320_xtrafondos.com.jpg");
+    background-repeat: no-repeat;
+  }
+  .inicio p img {
+    flex-direction: column;
+    width: 110%;
+    justify-content: center;
+  }
+  .inicio a {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    /*background-color: #c3992c;*/
+    background-image: url("https://img1.picmix.com/output/stamp/normal/5/7/6/0/540675_dc744.gif");
+    text-align: center;
+    border: solid 0.1em #000000;
+  }
+  h1 {
+    color: #969696;
+    font-family: "Prosto One", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    line-height: 0.4;
+  }
+}
+.oficina {
+  position: relative;
+  left: 200px;
+}
+
+/*# sourceMappingURL=styles.css.map */
