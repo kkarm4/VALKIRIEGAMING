@@ -99,7 +99,7 @@ header nav ul {
 .expli img {
   width: 10%;
   margin: 2%;
-  float: left;
+  float:left;
 }
 
 .expli p {
@@ -141,6 +141,71 @@ header nav ul {
   width: 350px;
   margin: 2%;
 }
+
+.contenedor{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow:hidden;
+}
+.slider{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.slider ul{
+  display:flex;
+  animation:cambio 20s infinite alternate linear;
+  width:400%;
+}
+.slider li{
+  width: 100%;
+  list-style: none; 
+}
+.slider img{
+  width:40%;
+  height: 60%;
+}
+@keyframes cambio{
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+.contenedor h1{
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  color: #000000;
+}
+.explinos article h1 {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.explinos img {
+  width: 10%;
+  margin: 2%;
+  float:left;
+}
+
+.explinos p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+}
+
 
 @media screen and (max-width: 800px) {
   header nav ul li a {
@@ -200,6 +265,27 @@ header nav ul {
   }
   p {
     line-height: 0.4;
+  }
+  /*recomendacion*/ 
+  .slider img{
+    width:80%;
+    height: 100%;
+  }
+  /*nosotros*/
+  .nosotres h1{
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .nosotres h2{
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .nosotres img{
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
   }
 }
 .oficina {
